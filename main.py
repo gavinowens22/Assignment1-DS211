@@ -30,3 +30,6 @@ with open("Cars_Data.csv", "r") as file:
             sellers[seller_name] = Seller(seller_name, seller_rating)
 
         sellers[seller_name].buy(car)
+
+
+       
